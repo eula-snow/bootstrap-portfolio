@@ -3,7 +3,7 @@
 ## Description
 
 This is my web development portfolio for showcasing my projects. Created using Bootstrap.\
-[View Portfolio](https://eula-snow.github.io/portfolio/)
+[View Portfolio](https://eula-snow.github.io/bootstrap-portfolio/)
 
 ## Installation
 
