@@ -1,0 +1,65 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  min-height: 100vh;
+}
+
+.jumbotron {
+  background-image: url("..//images/02-hero-bg.jpg") !important;
+  background-size: cover;
+  text-align: center;
+}
+
+.jupiter {
+  background-image: url("..//images/jupiter.jpg") !important;
+  background-size: cover;
+}
+.project1 {
+  padding-right: 0;
+}
+.project2 {
+  padding-left: 0;
+}
+
+.prework {
+  background-image: url("..//images/study.jpg") !important;
+  background-size: cover;
+}
+
+.weather {
+  background-image: url("..//images/clouds.jpg") !important;
+  background-size: cover;
+}
+
+.contact,
+.skills {
+  padding-top: 20px;
+}
+
+.contact .p-2 {
+  font-size: 45px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #16424b;
+}
+
+@media (max-width: 768px) {
+  .project1 {
+    padding-right: 15px;
+  }
+  .project2 {
+    padding-left: 15px;
+  }
+
+  .contact,
+  .skills {
+    margin-top: 20px;
+  }
+}
